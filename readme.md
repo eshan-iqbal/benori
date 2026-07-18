@@ -2,10 +2,6 @@
 
 An autonomous AI agent pipeline that aggregates, deduplicates, and analyzes real-time news to generate a concise, executive-level FMCG (Fast-Moving Consumer Goods) M&A and investment newsletter.
 
-## 🔗 Project Links
-- **Live Demo**: [Insert Vercel/Streamlit Link Here]
-- **GitHub Repository**: [Insert GitHub Link Here]
-
 ---
 
 ## 🏗 Architecture Diagram
