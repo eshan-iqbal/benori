@@ -30,13 +30,13 @@ def calculate_credibility_score(article):
     
     return score
 
-def filter_by_credibility(articles, min_score=2):
+def filter_by_credibility(articles, min_score=1):
     scored = []
     for article in articles:
         score = calculate_credibility_score(article)
         article["credibility_score"] = score
-        # Lowered min_score to 2 so articles with HTTPS and content pass,
-        # even if they aren't in the strict top-tier SOURCE_SCORES list.
+        # Lowered min_score to 1 because anti-bot paywalls often block content fetching,
+        # leaving articles with just an HTTPS url (score = 1) and a title/summary.
         if score >= min_score:
             scored.append(article)
     scored.sort(key=lambda x: x["credibility_score"], reverse=True)
