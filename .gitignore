@@ -1,0 +1,20 @@
+
+__pycache__/
+*.py[cod]
+.env
+data/
+exports/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore Keys and Test Scripts
+*.pem
+fmcg-backend-key.pem
+test_ai_calls.py

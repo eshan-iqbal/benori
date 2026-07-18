@@ -1,0 +1,17 @@
+
+fastapi
+uvicorn
+streamlit
+requests
+beautifulsoup4
+newspaper3k
+pandas
+rapidfuzz
+openai
+python-dotenv
+python-docx
+openpyxl
+python-pptx
+feedparser
+lxml_html_clean
+pymongo
